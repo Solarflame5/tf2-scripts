@@ -1,0 +1,25 @@
+add these to your launch options
+
+-threads 4 -noborder -no_texture_stream -novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -sillygibs +violence_ablood 0 +violence_agibs 0 +violence_hblood 0 +violence_hgibs 0
+
+replace the number after "-threads" with the amount of your cpu threads
+
+"-noborder" makes the game run in a borderless window if you choose "run in a window", 
+so you can use borderless fullscreen, borderless fullscreen adds input lag because the
+windows DWM has vsync enabled permanently, so i recommend not using it
+
+"-no_texture_stream" disables texture streaming so textures won't appear blurry for the first seconds
+
+"-novid" disables the valve logo at start saving time
+
+"-nojoy" and "-nosteamcontroller" disables gamepad and steam controller support reducing resource usage
+
+"-particles 1" limits beam count to the minimum of 512
+
+"-precachefontchars" precaches font rendering for common characters
+
+"-sillygibs +violence_ablood 0 +violence_agibs 0 +violence_hblood 0 +violence_hgibs 0"
+i use these options mainly because the blood particles and the gibs are pretty distracting to me, 
+sillygibs replaces gibs with well, silly parts like gears that dont look as distracting and the other
+options disable blood spraying and particles that really distracts me, 
+these options are also useful if you dont like the amount of blood tf2 has.
